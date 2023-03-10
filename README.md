@@ -2,7 +2,7 @@
     
  Este é o repositório do projeto final - M3 da aplicação **Kenzie movies** - O objetivo dessa API é fornecer os dados necessários para o acesso a aplicação, bem como  interagir com suas funcionalidades. 
 
-  ##  Endpoints
+  ##  :hammer: Endpoints
   
   A API contém um total de X endpoints, sendo possível cadastrar novos usuários, realizar login e favoritar filmes, além de ... 
   
