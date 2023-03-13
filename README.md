@@ -94,8 +94,12 @@ Email já cadastrado.
    ## Buscar Perfil do usuário logado (token e ID) 
    `GET/600/users/2 - ROTA DA REQUISIÇÃO`
    
+   Nessa requisição é necessário o **TOKEN** e o **ID** do usuário setados no localStorage.
    
+   Caso a requisição seja bem sucedida, a resposta será assim: 
 
+  `GET/600/users/2 - FORMATO DA RESPOSTA - STATUS 200`
+   
  ```markdown
 {
 	"email": "fulano@mail.com",
