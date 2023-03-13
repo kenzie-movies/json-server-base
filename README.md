@@ -85,3 +85,20 @@ Email já cadastrado.
 	}
 }
    ```
+   
+   # Rotas que necessitam de autorização
+   
+   Rotas que necessitam de autorização devem ser informados no cabeçalho da requisição o campo "Authorization", dessa forma:
+   **`Authorization: Bearer {token}`**
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
