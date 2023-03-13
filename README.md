@@ -1,4 +1,4 @@
- [<img src="/logo.svg" height=100 width=1200>](https://idroid.vercel.app/)
+ [<img src="/logo.svg" height=100 width=1200>](https://kenzie-movies.vercel.app/)
     
  Este é o repositório do projeto final - M3 da aplicação **Kenzie movies** - O objetivo dessa API é fornecer os dados necessários para o acesso a aplicação, bem como  interagir com suas funcionalidades. 
 
