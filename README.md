@@ -111,6 +111,45 @@ Email já cadastrado.
 }
    ```
 
+   ## Buscar todos os filmes (token) 
+   `GET/movies/ - ROTA DA REQUISIÇÃO`
+   
+   Nessa requisição é necessário somente o **TOKEN.**
+   
+   Caso a requisição seja bem sucedida, a resposta será assim: 
+
+  `GET/movies/ - FORMATO DA RESPOSTA - STATUS 200`
+  
+   ```markdown
+[
+	{
+		"name": "Vingadores: Guerra Infinita",
+		"synopsis": "Em Vingadores: Guerra Infinita, Thanos (Josh Brolin) enfim chega à Terra, disposto a reunir as Joias do Infinito. Para enfrentá-lo, os Vingadores precisam unir forças com os Guardiões da Galáxia, ao mesmo tempo em que lidam com desavenças entre alguns de seus integrantes.",
+		"cover": "https://br.web.img3.acsta.net/c_310_420/pictures/18/03/16/15/08/2019826.jpg",
+		"release": "26/04/2018",
+		"duration": "2h36min",
+		"genre": "Ação, Fantasia, Aventura",
+		"classification": "12 anos",
+		"verified": true,
+		"userId": 1,
+		"id": 1
+	},
+	{
+		"name": "Vingadores: Ultimato",
+		"synopsis": "Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.",
+		"cover": "https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg",
+		"release": "25/04/2019",
+		"duration": "3h01min",
+		"genre": "Ação, Fantasia, Aventura",
+		"classification": "12 anos",
+		"verified": true,
+		"userId": 1,
+		"id": 2
+	}
+]
+   ```
+  
+   
    
    
    
