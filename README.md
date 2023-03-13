@@ -190,7 +190,55 @@ Email já cadastrado.
 }
 
    ```
-
+   
+   
+   ## Buscar meus filmes cadastrados (token e ID) 
+  `GET/users/2?_embed=movies - ROTA DA REQUISIÇÃO`
+  
+   Nessa requisição é necessário o **TOKEN** e o **ID** no corpo da rota logo após /users. Assim: `/users/ID?_embed=movies`
  
+ Caso a requisição seja bem sucedida, a resposta será assim: 
+ 
+ `GET/users/2?_embed=movies - FORMATO DA RESPOSTA - STATUS 200`
+ 
+ 
+  ```markdown
+ 
+{
+	"email": "fulano@mail.com",
+	"password": "$2a$10$JCAYhDCsqEiHQC.lFfhpLOWl/LmQvd7pMw19Lb6RKMxNKMrXsLQYm",
+	"name": "fulano",
+	"passwordConfirmation": "123456",
+	"avatarLink": "https://avatars.githubusercontent.com/u/99143799?v=4",
+	"id": 2,
+	"movies": [
+		{
+			"name": "Exterminador do futuro 3 - A Rebelião das Máquinas",
+			"genre": "Ação, ficção científica, suspense",
+			"release": "30/06/2003",
+			"duration": "1h49min",
+			"cover": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/39/Terminator_3_Rise_of_the_Machines_movie.jpg/250px-Terminator_3_Rise_of_the_Machines_movie.jpg",
+			"classification": "18 anos",
+			"synopsis": "Aos 25 anos, Connor vive agora sem nenhum registro de sua existência para não ser rastreado. Das sombras do futuro sai T-X, o ciborgue assassino mais sofisticado da Skynet. A única esperança de sobrevivência para Connor é o Exterminador, seu antigo e misterioso assassino. Juntos, eles devem derrotar o tecnologicamente superior T-X e evitar o Dia do Julgamento Final.",
+			"userId": 2,
+			"verified": false,
+			"id": 7
+		},
+		{
+			"name": "Tropa de elite 2",
+			"genre": "Ação,baseado em fatos reais",
+			"release": "08/10/2010",
+			"duration": "1h55min",
+			"cover": "https://upload.wikimedia.org/wikipedia/pt/e/ed/Tropa_de_Elite_2.jpg",
+			"classification": "18 anos",
+			"synopsis": "Depois de uma operação fracassada, Nascimento é afastado do Bope e agora trabalha como subsecretário de Inteligência na Secretaria de Segurança Pública do Rio de Janeiro. No novo cargo, o ex-capitão é arrastado para uma disputa política sangrenta que envolve funcionários do governo e grupos paramilitares.",
+			"userId": 2,
+			"verified": false,
+			"id": 8
+		}
+	]
+}
+
+   ```
    
    
