@@ -91,14 +91,22 @@ Email já cadastrado.
    Rotas que necessitam de autorização devem ser informados no cabeçalho da requisição o campo "Authorization", dessa forma:
    **`Authorization: Bearer {token}`**
    
+   ## Buscar Perfil do usuário logado (token e ID) 
+   `GET/600/users/2 - ROTA DA REQUISIÇÃO`
+   
+   
 
-   
-   
-   
-   
-   
-   
-   
+ ```markdown
+{
+	"email": "fulano@mail.com",
+	"password": "$2a$10$JCAYhDCsqEiHQC.lFfhpLOWl/LmQvd7pMw19Lb6RKMxNKMrXsLQYm",
+	"name": "fulano",
+	"passwordConfirmation": "123456",
+	"avatarLink": "https://avatars.githubusercontent.com/u/99143799?v=4",
+	"id": 2
+}
+   ```
+
    
    
    
