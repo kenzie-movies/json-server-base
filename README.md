@@ -4,7 +4,7 @@
 
   ##  :hammer: Endpoints
   
-  A API contém um total de X endpoints, sendo possível cadastrar novos usuários, realizar login e favoritar filmes, além de poder solicitar o cadastro de um novo filme, sendo aprovado ou rejeitado pelos administradores. 
+  A API contém um total de 6 endpoints, sendo possível cadastrar novos usuários, realizar login e favoritar filmes, além de poder solicitar o cadastro de um novo filme, sendo aprovado ou rejeitado pelos administradores. 
   
  A url base da API é esta: [Link de acesso](https://kenzie-movies.onrender.com/)
   
