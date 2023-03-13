@@ -149,7 +149,48 @@ Email já cadastrado.
 ]
    ```
   
+  ## Cadastrar um filme (token) 
+  
+  Nessa requisição é necessário o **TOKEN** e o corpo da requisição.
+  
+   `POST/movies/ - FORMATO DA REQUISIÇÃO`
    
+  
+ ```markdown
+  {
+      "name": "Tropa de elite 2",
+      "synopsis": "Depois de uma operação fracassada, Nascimento é afastado do Bope e agora trabalha como subsecretário de Inteligência na Secretaria de Segurança Pública do Rio de Janeiro. No novo cargo, o ex-capitão é arrastado para uma disputa política sangrenta que envolve funcionários do governo e grupos paramilitares.",
+      "cover": "https://upload.wikimedia.org/wikipedia/pt/e/ed/Tropa_de_Elite_2.jpg",
+      "release": "08/10/2010",
+      "duration": "1h55min",
+      "genre": "Ação,baseado em fatos reais",
+      "classification": "18 anos",
+      "userId": 2
+}
+   ```
    
+   Caso a requisição seja bem sucedida, a resposta será assim: 
+   
+   `POST/movies/ - FORMATO DA RESPOSTA - STATUS 201`
+
+
+ ```markdown
+ 
+  {
+	"name": "Tropa de elite 2",
+	"synopsis": "Depois de uma operação fracassada, Nascimento é afastado do Bope e agora trabalha como subsecretário de Inteligência na Secretaria de Segurança Pública do Rio de Janeiro. No novo cargo, o ex-capitão é arrastado para uma disputa política sangrenta que envolve funcionários do governo e grupos paramilitares.",
+	"cover": "https://upload.wikimedia.org/wikipedia/pt/e/ed/Tropa_de_Elite_2.jpg",
+	"release": "08/10/2010",
+	"duration": "1h55min",
+	"genre": "Ação,baseado em fatos reais",
+	"classification": "18 anos",
+	"verified": false,
+	"userId": 2,
+	"id": 7
+}
+
+   ```
+
+ 
    
    
